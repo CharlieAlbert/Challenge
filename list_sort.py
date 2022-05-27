@@ -11,6 +11,7 @@ def sorting():
         item = int(input())
         numbers.append(item)
 
+    print('Sorting methods => ascending: a, asc, ascend.\n descending: d, des, descend')
     prompt = input('Enter sorting method: ')
 
     if prompt is None:
